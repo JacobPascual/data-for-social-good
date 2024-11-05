@@ -15,29 +15,20 @@ Use your knowledge of object-oriented programming, one-dimensional (1D) arrays, 
 
 ## User Story 
 
-Include your User Story you analyzed for your project here. Your User Story should have the following format: 
-
-> As an [role], <br> 
-> I want to [goal], <br> 
-> so that I can [benefit]. 
+As a food influencer, 
+I want to gather data about the best reviewed underground restaurants
+so that I can choose where to critique and advertise
 
 ## Dataset 
 
-Include a hyperlink to the source of your dataset used for this project. Additionally, provide a short description of each column used from the dataset, and the data type. 
-
-Example: 
-
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions 
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
+Dataset: https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews
+- **Restaurant** (String) - name of the restaurant
+- **Rating** (int) - rating of the restaurant out of 5
 
 ## UML Diagram 
 
-Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README. 
-
-![UML Diagram for my project](nameOfImageFileHere.png) 
+![UML Diagram for my project](![alt text](<Copy of UML Diagram.png>)) 
 
 ## Description 
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+Our project is an app that provides information for food influencers, critiques, etc. It uses a dataset with 10,000 instances of values and 100 unique ones, that include information about restaurant reviews including the name, rating out of 5, character review, images, and reviewer names. The dataset allows users to see how popular and how well or badly rated certain restaurants are. In our project, we used the ratings and name columns and stored them into 1D arrays for our program to run. Our algorithm also incorperates an entity class to "combine" the two arrays into one object so that the information is easier to collect.
